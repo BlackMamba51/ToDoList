@@ -1,0 +1,58 @@
+.todo__container {
+  padding: 50px;
+  width: 100%;
+}
+.input__section {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.case__name {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(15, 183, 239);
+  border-radius: 10px;
+  font-size: 22px;
+  padding-left: 10px;
+}
+.case__name:focus {
+  box-shadow: 5px 7px 15px rgb(15, 183, 239) ;
+}
+.add__case {
+  margin-left: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(15, 183, 239);
+  color: #fff;
+  font-size: 26px;
+  border-radius: 10px;
+  transition: all .5s ease;
+}
+.add__case:hover {
+  box-shadow: 5px 7px 15px rgb(15, 183, 239);
+}
+.case__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-basis: 45%;
+  margin-top: 40px;
+}
+.case__item {
+  width: 45%;
+  padding: 15px;
+  max-height: 100px;
+  border: 1px solid rgb(15, 183, 239);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.case__title {
+  font-size: 36px;
+  text-align: center;
+}
+.button__delete {
+  width: 100px;
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  height: 30px;
+  border-radius: 10px;
+}

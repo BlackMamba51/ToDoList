@@ -27,6 +27,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 .menu-links svg {
   fill: #fff;
@@ -39,6 +40,7 @@
   font-size: 20px;
   transition: all .5s ease;
   color: #FFF;
+  display: inline-block;
 }
 .link-text-opacity {
   opacity: 0;
